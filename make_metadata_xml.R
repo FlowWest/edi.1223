@@ -18,8 +18,7 @@ methods_docx <- "data-raw/methods.docx"
 
 # edi_number <- reserve_edi_id(user_id = Sys.getenv("EDI_user"), password = Sys.getenv("EDI_password"))
 
-
-edi_number = "edi.996.1"
+edi_number = "edi.1221.1"
 
 dataset <- list() %>%
   add_pub_date() %>%
@@ -34,20 +33,11 @@ dataset <- list() %>%
   add_coverage(metadata$coverage, metadata$taxonomic_coverage) %>%
   add_datatable(datatable_metadata)
 
-custom_units <- data.frame(id = c("microseimens per centimeter", "parts per thousand", "percent saturation", "pH",
-                                  "Nephelometric Turbidity unit", "rotation start", "rotation end", "rank score"),
-                           unitType = c("density", "density", "dimensionless", "dimensionless", "dimensionless",
-                                        "dimensionless", "dimensionless", "dimensionless"),
-                           parentSI = c(NA, NA, NA, NA, NA, NA, NA, NA),
-                           multiplierToSI = c("siemensPerCentimeter", NA, NA, NA, NA, NA, NA, NA),
-                           description = c("Number of microsiemens per centimeter, conductivity measurement",
-                                           "Salinity measure of parts per thousand",
-                                           "Percent saturation of disolved oxygen",
-                                           "Measure of potential hydrogen",
-                                           "Turbidity Units",
-                                           "The start number of the flowmeter rotor",
-                                           "The end number of the flowmeter rotor",
-                                           "Subjective rank score of zooplankton density"))
+custom_units <- data.frame(id = c("nephelometric turbidity units", "fish"),
+                           unitType = c("dimensionless", "dimensionless"),
+                           parentSI = c(NA, NA),
+                           multiplierToSI = c(NA, NA),
+                           description = c("Turbidity Units", "Number of Fish"))
 
 unitList <- EML::set_unitList(custom_units)
 eml <- list(packageId = edi_number,
@@ -57,5 +47,6 @@ eml <- list(packageId = edi_number,
             additionalMetadata = list(metadata = list(
               unitList = unitList)))
 
-EML::write_eml(eml, "edi.996.1.xml")
-EML::eml_validate("edi.996.1.xml")
+EML::write_eml(eml, paste0(edi_number, ".xml"))
+EML::eml_validate(paste0(edi_number, ".xml"))
+

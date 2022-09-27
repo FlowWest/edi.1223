@@ -75,3 +75,12 @@ unique(snorkel_all$Comment, useNA = "ifany")
 
 write_csv(snorkel_all, 'data/snorkel_all.csv')
 
+
+# shapefiles --------------------------------------------------------------
+
+snorkel <- sf::read_sf('data-raw/2014_2022_HW_snorkel_final/2014_2022_HW_Snorkel_End_pts_CASP2_final.shp')
+
+fish_obs <- sf::read_sf('data-raw/2014_2022_HW_snorkel_final/2014_2022_HW_Snorkel_FishObs_pts_CASP2_final.shp')
+
+start_pts <- sf::read_sf('data-raw/2014_2022_HW_snorkel_final/2014_2022_HW_Snorkel_Start_pts_CASP2_final.shp')
+
