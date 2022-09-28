@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.1221.1" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.1223.1" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
   <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
     <allow>
       <principal>public</principal>
@@ -1604,9 +1604,9 @@
       </attributeList>
       <numberOfRecords>6778</numberOfRecords>
     </dataTable>
-    <spatialVector>
+    <otherEntity>
       <entityName>2014_2022_HW_snorkel_final.zip</entityName>
-      <entityDescription>A vector File</entityDescription>
+      <entityDescription>A zipped folder containing vector shapefiles associated with this dataset</entityDescription>
       <physical>
         <objectName>2014_2022_HW_snorkel_final.zip</objectName>
         <size unit="bytes">157588</size>
@@ -1627,116 +1627,8 @@
           </online>
         </distribution>
       </physical>
-      <attributeList>
-        <attribute>
-          <attributeName>field_1</attributeName>
-          <attributeDefinition>unique project identifier</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>unique project identifier</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>SiteName</attributeName>
-          <attributeDefinition>unique name for each site</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>unique name for each site</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>TransectID</attributeName>
-          <attributeDefinition>unique identifier for each transect</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>unique identifier for each transect</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>Y_coord_start</attributeName>
-          <attributeDefinition>y coordinate of transect start</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>y coordinate of transect start</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>X_coord_start</attributeName>
-          <attributeDefinition>x coordinate of transect start</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>x coordinate of transect start</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>Y_coord_end</attributeName>
-          <attributeDefinition>y coordinate of transect end</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>y coordinate of transect end</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>X_coord_end</attributeName>
-          <attributeDefinition>x coordinate of transect end</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>x coordinate of transect end</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>Date</attributeName>
-          <attributeDefinition>survey date</attributeDefinition>
-          <measurementScale>
-            <dateTime>
-              <formatString>YYYY-MM-DD</formatString>
-              <dateTimeDomain>
-                <bounds>
-                  <minimum exclusive="false">2014-01-01</minimum>
-                  <maximum exclusive="false">2022-09-27</maximum>
-                </bounds>
-              </dateTimeDomain>
-            </dateTime>
-          </measurementScale>
-        </attribute>
-      </attributeList>
-      <geometry>Point</geometry>
-    </spatialVector>
+      <entityType>zipped</entityType>
+    </otherEntity>
   </dataset>
   <additionalMetadata>
     <metadata>
