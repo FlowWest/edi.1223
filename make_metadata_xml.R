@@ -2,8 +2,10 @@ library(EMLaide)
 library(tidyverse)
 
 # Load in tabular data 
-datatable_metadata <- tibble(filepath = c("data/snorkel_all.csv"),
-                             attribute_info = c("data-raw/metadata_snorkel.xlsx"),
+datatable_metadata <- tibble(filepath = c("data/snorkel_all.csv"
+                                          ),
+                             attribute_info = c("data-raw/metadata_snorkel.xlsx"
+                                                ),
                              datatable_description = c("Snorkel Data"))
 
 # Prep Other Entity metadata
