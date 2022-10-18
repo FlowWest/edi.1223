@@ -2,11 +2,12 @@ library(EMLaide)
 library(tidyverse)
 
 # Load in tabular data 
-datatable_metadata <- tibble(filepath = c("data/snorkel_all.csv"
-                                          ),
-                             attribute_info = c("data-raw/metadata_snorkel.xlsx"
-                                                ),
-                             datatable_description = c("Snorkel Data"))
+datatable_metadata <- tibble(filepath = c("data/snorkel_all.csv"),
+                             attribute_info = c("data-raw/metadata_snorkel.xlsx"),
+                             datatable_description = c("Snorkel Data"),
+                             datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/edi.1223/main/data/",
+                                                    c("snorkel_all.csv"))
+                             )
 
 # Prep Other Entity metadata
 other_entity_metadata <- list("file_name" = "2014_2022_HW_snorkel_final.zip",
@@ -26,7 +27,7 @@ methods_docx <- "data-raw/methods.docx"
 
 # edi_number <- reserve_edi_id(user_id = Sys.getenv("edi_user_id"), password = Sys.getenv("edi_password"))
 
-edi_number = "edi.1223.1"
+edi_number = "edi.1223.2"
 
 dataset <- list() %>%
   add_pub_date() %>%
@@ -59,3 +60,15 @@ eml <- list(packageId = edi_number,
 EML::write_eml(eml, paste0(edi_number, ".xml"))
 EML::eml_validate(paste0(edi_number, ".xml"))
 
+
+EMLaide::evaluate_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("password"), 
+                              #paste0(edi_number, ".xml"),
+                              environment = "staging",
+                              eml_file_path = "edi.1223.1.xml" )
+
+EMLaide::update_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("password"), 
+                              existing_package_identifier = paste0(edi_number, ".xml"),
+                              environment = "staging",
+                              eml_file_path = "edi.1223.1.xml")
+# EMLaide::upload_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("password"), paste0(edi_number, ".xml"),
+#                             environment = "staging")
