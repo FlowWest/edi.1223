@@ -1,15 +1,19 @@
 library(tidyverse)
 library(readxl)
 library(lubridate)
+library(hms)
 
 list.files('data-raw/')
 
 raw_snorkel_all <- read_csv('data-raw/snorkel_all.csv') %>% glimpse
 
+# datetime:   hh:mm:ssTZD
+
 snorkel_all <- raw_snorkel_all %>%
   mutate(Date = as_date(Date, format = "%m/%d/%Y"),
-         StartTime =  as_datetime(StartTime, format = "%m/%d/%Y %H:%M"),
-         EndTime = as_datetime(EndTime, format = "%m/%d/%Y %H:%M"),
+        # StartTime =  as_datetime(StartTime, format = "%m/%d/%Y %H:%M"),
+       #  StartTime = as_hms(StartTime),
+         #EndTime = as_datetime(EndTime, format = "%m/%d/%Y %H:%M"),
          Species_Code = ifelse(Species_Code == "Unknown Larval", "LARVAL", Species_Code)) %>% glimpse
 
 unique(snorkel_all$ProjectID)

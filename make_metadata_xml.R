@@ -27,7 +27,7 @@ methods_docx <- "data-raw/methods.docx"
 
 # edi_number <- reserve_edi_id(user_id = Sys.getenv("edi_user_id"), password = Sys.getenv("edi_password"))
 
-edi_number = "edi.1223.2"
+edi_number = "edi.1223.1"
 
 dataset <- list() %>%
   add_pub_date() %>%

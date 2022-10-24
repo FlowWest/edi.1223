@@ -8,7 +8,7 @@
   </access>
   <dataset>
     <shortName>snorkel surveys 2014 - 2021</shortName>
-    <title>Pre- and Post- construction snorkel surveys at the project and reach stretches, 2014, 2016, 2020, 2021</title>
+    <title>Lower Yuba River Hallwood floodplain and side channel restoration snorkel surveys at the project and control reaches</title>
     <creator>
       <individualName>
         <givenName>Bobbie</givenName>
@@ -53,7 +53,7 @@
       <electronicMailAddress>a.sawyer@cbecoeng.com</electronicMailAddress>
       <role>project manager</role>
     </associatedParty>
-    <pubDate>2022-10-18</pubDate>
+    <pubDate>2022-10-24</pubDate>
     <abstract>
       <para>
     Cramer Fish Sciences (CFS), cbec, inc. ecoengineering, and South
@@ -397,7 +397,7 @@
       </methodStep>
     </methods>
     <project>
-      <title>Pre- and Post- construction snorkel surveys at the project and reach stretches, 2014, 2016, 2020, 2021</title>
+      <title>Lower Yuba River Hallwood floodplain and side channel restoration snorkel surveys at the project and control reaches</title>
       <personnel>
         <individualName>
           <givenName>Bobbie</givenName>
@@ -445,8 +445,8 @@
       <entityDescription>Snorkel Data</entityDescription>
       <physical>
         <objectName>snorkel_all.csv</objectName>
-        <size unit="bytes">1777096</size>
-        <authentication method="MD5">3a692c76fd640efece32a19ace7e485e</authentication>
+        <size unit="bytes">1939637</size>
+        <authentication method="MD5">ebc2afe6647549e84f7509fd0aaf1389</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -638,11 +638,11 @@
           <attributeDefinition>start time of each transect</attributeDefinition>
           <measurementScale>
             <dateTime>
-              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <formatString>DD/MM/YYYY hh:mm</formatString>
               <dateTimeDomain>
                 <bounds>
-                  <minimum exclusive="false">41640</minimum>
-                  <maximum exclusive="false">44831</maximum>
+                  <minimum exclusive="false">11/12/2021 11:22</minimum>
+                  <maximum exclusive="false">6/9/2022 9:25</maximum>
                 </bounds>
               </dateTimeDomain>
             </dateTime>
@@ -653,11 +653,11 @@
           <attributeDefinition>end time of ecah transect</attributeDefinition>
           <measurementScale>
             <dateTime>
-              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <formatString>DD/MM/YYYY hh:mm</formatString>
               <dateTimeDomain>
                 <bounds>
-                  <minimum exclusive="false">41640</minimum>
-                  <maximum exclusive="false">44831</maximum>
+                  <minimum exclusive="false">11/12/2021 11:34</minimum>
+                  <maximum exclusive="false">6/9/2022 9:36</maximum>
                 </bounds>
               </dateTimeDomain>
             </dateTime>

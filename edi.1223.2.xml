@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.1221.1" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.1223.2" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
   <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
     <allow>
       <principal>public</principal>
@@ -8,7 +8,7 @@
   </access>
   <dataset>
     <shortName>snorkel surveys 2014 - 2021</shortName>
-    <title>Pre- and Post- construction snorkel surveys at the project and reach stretches, 2014, 2016, 2020, 2021</title>
+    <title>Lower Yuba River Hallwood floodplain and side channel restoration snorkel surveys at the project and control reaches</title>
     <creator>
       <individualName>
         <givenName>Bobbie</givenName>
@@ -53,7 +53,7 @@
       <electronicMailAddress>a.sawyer@cbecoeng.com</electronicMailAddress>
       <role>project manager</role>
     </associatedParty>
-    <pubDate>2022-09-28</pubDate>
+    <pubDate>2022-10-24</pubDate>
     <abstract>
       <para>
     Cramer Fish Sciences (CFS), cbec, inc. ecoengineering, and South
@@ -117,6 +117,10 @@
       <keyword>habitats</keyword>
       <keyword>salmon</keyword>
       <keywordThesaurus>AGROVOC</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>CVPIA</keyword>
+      <keyword>Cramer Fish Sciences</keyword>
     </keywordSet>
     <intellectualRights>
       <para>This data package is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein "website") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available "as is" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.</para>
@@ -393,7 +397,7 @@
       </methodStep>
     </methods>
     <project>
-      <title>Pre- and Post- construction snorkel surveys at the project and reach stretches, 2014, 2016, 2020, 2021</title>
+      <title>Lower Yuba River Hallwood floodplain and side channel restoration snorkel surveys at the project and control reaches</title>
       <personnel>
         <individualName>
           <givenName>Bobbie</givenName>
@@ -441,8 +445,8 @@
       <entityDescription>Snorkel Data</entityDescription>
       <physical>
         <objectName>snorkel_all.csv</objectName>
-        <size unit="bytes">1777096</size>
-        <authentication method="MD5">3a692c76fd640efece32a19ace7e485e</authentication>
+        <size unit="bytes">1939637</size>
+        <authentication method="MD5">ebc2afe6647549e84f7509fd0aaf1389</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -455,7 +459,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.1223/main/data/snorkel_all.csv</url>
           </online>
         </distribution>
       </physical>
@@ -634,11 +638,11 @@
           <attributeDefinition>start time of each transect</attributeDefinition>
           <measurementScale>
             <dateTime>
-              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <formatString>DD/MM/YYYY hh:mm</formatString>
               <dateTimeDomain>
                 <bounds>
-                  <minimum exclusive="false">41640</minimum>
-                  <maximum exclusive="false">44831</maximum>
+                  <minimum exclusive="false">11/12/2021 11:22</minimum>
+                  <maximum exclusive="false">6/9/2022 9:25</maximum>
                 </bounds>
               </dateTimeDomain>
             </dateTime>
@@ -649,11 +653,11 @@
           <attributeDefinition>end time of ecah transect</attributeDefinition>
           <measurementScale>
             <dateTime>
-              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <formatString>DD/MM/YYYY hh:mm</formatString>
               <dateTimeDomain>
                 <bounds>
-                  <minimum exclusive="false">41640</minimum>
-                  <maximum exclusive="false">44831</maximum>
+                  <minimum exclusive="false">11/12/2021 11:34</minimum>
+                  <maximum exclusive="false">6/9/2022 9:36</maximum>
                 </bounds>
               </dateTimeDomain>
             </dateTime>
@@ -1006,7 +1010,7 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>ObsDepth</attributeName>
+          <attributeName>Depth</attributeName>
           <attributeDefinition>depth at observation - usually only for salmonids</attributeDefinition>
           <measurementScale>
             <ratio>
@@ -1604,9 +1608,9 @@
       </attributeList>
       <numberOfRecords>6778</numberOfRecords>
     </dataTable>
-    <spatialVector>
+    <otherEntity>
       <entityName>2014_2022_HW_snorkel_final.zip</entityName>
-      <entityDescription>A vector File</entityDescription>
+      <entityDescription>A zipped folder containing vector shapefiles associated with this dataset</entityDescription>
       <physical>
         <objectName>2014_2022_HW_snorkel_final.zip</objectName>
         <size unit="bytes">157588</size>
@@ -1627,116 +1631,8 @@
           </online>
         </distribution>
       </physical>
-      <attributeList>
-        <attribute>
-          <attributeName>field_1</attributeName>
-          <attributeDefinition>unique project identifier</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>unique project identifier</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>SiteName</attributeName>
-          <attributeDefinition>unique name for each site</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>unique name for each site</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>TransectID</attributeName>
-          <attributeDefinition>unique identifier for each transect</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>unique identifier for each transect</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>Y_coord_start</attributeName>
-          <attributeDefinition>y coordinate of transect start</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>y coordinate of transect start</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>X_coord_start</attributeName>
-          <attributeDefinition>x coordinate of transect start</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>x coordinate of transect start</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>Y_coord_end</attributeName>
-          <attributeDefinition>y coordinate of transect end</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>y coordinate of transect end</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>X_coord_end</attributeName>
-          <attributeDefinition>x coordinate of transect end</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <textDomain>
-                  <definition>x coordinate of transect end</definition>
-                </textDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>Date</attributeName>
-          <attributeDefinition>survey date</attributeDefinition>
-          <measurementScale>
-            <dateTime>
-              <formatString>YYYY-MM-DD</formatString>
-              <dateTimeDomain>
-                <bounds>
-                  <minimum exclusive="false">2014-01-01</minimum>
-                  <maximum exclusive="false">2022-09-27</maximum>
-                </bounds>
-              </dateTimeDomain>
-            </dateTime>
-          </measurementScale>
-        </attribute>
-      </attributeList>
-      <geometry>Point</geometry>
-    </spatialVector>
+      <entityType>zipped</entityType>
+    </otherEntity>
   </dataset>
   <additionalMetadata>
     <metadata>
