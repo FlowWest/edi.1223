@@ -9,12 +9,19 @@ raw_snorkel_all <- read_csv('data-raw/snorkel_all.csv') %>% glimpse
 
 # datetime:   hh:mm:ssTZD
 
-snorkel_all <- raw_snorkel_all %>%
+snorkel_all <- raw_snorkel_all |> 
   mutate(Date = as_date(Date, format = "%m/%d/%Y"),
-        # StartTime =  as_datetime(StartTime, format = "%m/%d/%Y %H:%M"),
-       #  StartTime = as_hms(StartTime),
-         #EndTime = as_datetime(EndTime, format = "%m/%d/%Y %H:%M"),
-         Species_Code = ifelse(Species_Code == "Unknown Larval", "LARVAL", Species_Code)) %>% glimpse
+         Species_Code = ifelse(Species_Code == "Unknown Larval", "LARVAL", Species_Code)) |> 
+  separate(StartTime, into = c("tmp", "StartTime"), sep = " ") |> 
+  separate(EndTime, into = c("tmp2", "EndTime"), sep = " ") |> 
+  mutate(StartTime = ifelse(nchar(StartTime) %in% c(5, 4), paste0(StartTime, ":00"), StartTime),
+         EndTime = ifelse(nchar(EndTime) %in% c(5, 4), paste0(EndTime, ":00"), EndTime),
+         StartTime = as.character(as_datetime(paste(Date, StartTime))),
+         EndTime = as.character(as_datetime(paste(Date, EndTime)))) |> 
+  #mutate(nchar = nchar(as.character(StartTime))) 
+  #mutate(StartTime = ifelse(nchar(StartTime) != 10, StartTime, NA)) |> 
+  select(-tmp, -tmp2) |> 
+  glimpse()
 
 unique(snorkel_all$ProjectID)
 

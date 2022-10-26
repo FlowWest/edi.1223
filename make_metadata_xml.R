@@ -27,7 +27,7 @@ methods_docx <- "data-raw/methods.docx"
 
 # edi_number <- reserve_edi_id(user_id = Sys.getenv("edi_user_id"), password = Sys.getenv("edi_password"))
 
-edi_number = "edi.1223.1"
+edi_number = "edi.1223.4"
 
 dataset <- list() %>%
   add_pub_date() %>%
@@ -64,7 +64,7 @@ EML::eml_validate(paste0(edi_number, ".xml"))
 EMLaide::evaluate_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("password"), 
                               #paste0(edi_number, ".xml"),
                               environment = "staging",
-                              eml_file_path = "edi.1223.1.xml" )
+                              eml_file_path = "edi.1223.3.xml" )
 
 EMLaide::update_edi_package(Sys.getenv("edi_user_id"), Sys.getenv("password"), 
                               existing_package_identifier = paste0(edi_number, ".xml"),

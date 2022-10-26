@@ -1,0 +1,1649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.1223.4" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>snorkel surveys 2014 - 2021</shortName>
+    <title>Lower Yuba River Hallwood floodplain and side channel restoration snorkel surveys at the project and control reaches</title>
+    <creator>
+      <individualName>
+        <givenName>Bobbie</givenName>
+        <surName>Flores</surName>
+      </individualName>
+      <organizationName>Cramer Fish Sciences</organizationName>
+      <electronicMailAddress>bobbie.flores@fishsciences.net</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Kirsten</givenName>
+        <surName>Sellheim</surName>
+      </individualName>
+      <organizationName>Cramer Fish Sciences</organizationName>
+      <electronicMailAddress>kirsten.sellheim@fishsciences.net</electronicMailAddress>
+      <role>principal investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <surName>Merz</surName>
+      </individualName>
+      <organizationName>Cramer Fish Sciences</organizationName>
+      <electronicMailAddress>jmerz@fishsciences.net</electronicMailAddress>
+      <role>principal investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Philip</givenName>
+        <surName>Colombano</surName>
+      </individualName>
+      <organizationName>Cramer Fish Sciences</organizationName>
+      <electronicMailAddress>philip.colombano@fishsciences.net</electronicMailAddress>
+      <role>researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>April</givenName>
+        <surName>Sawyer</surName>
+      </individualName>
+      <organizationName>cbec eco-engineering</organizationName>
+      <electronicMailAddress>a.sawyer@cbecoeng.com</electronicMailAddress>
+      <role>project manager</role>
+    </associatedParty>
+    <pubDate>2022-10-26</pubDate>
+    <abstract>
+      <para>
+    Cramer Fish Sciences (CFS), cbec, inc. ecoengineering, and South
+    Yuba River Citizen’s League, funded and directed by the United
+    States Fish and Wildlife Service’s Anadromous Fish Restoration
+    Program (USFWS AFRP), teamed to plan, design, monitor, perform
+    regulatory compliance for the Hallwood Side Channel and Floodplain
+    Restoration Project (Project) on the Yuba River, California. The
+    Project is designed to restore and enhance ecosystem processes, with
+    a primary focus on improving productive juvenile salmonid rearing
+    habitat to increase natural production of fall and spring-run
+    Chinook Salmon (Oncorhynchus tshawytscha) and steelhead (O. mykiss)
+    in the Yuba River. The Project would enhance and/or create up to 157
+    acres of seasonally inundated riparian floodplain habitats, 1.7
+    miles of perennial side and alcove channels, and more than 6.1 miles
+    of seasonal side channels. The design approach focuses on removing
+    unnatural constraints (such as a mid-river training wall and very
+    coarse surface materials left from mining activities) in order to
+    allow natural river and floodplain processes to function.
+    Construction planning efforts include multi-year phasing to remove
+    about 3.2 million cubic yards of material from the site while
+    optimizing habitat establishment in early years and minimizing
+    disturbance to existing high quality riparian and aquatic habitat. 
+  </para>
+      <para>
+    The Project included a robust monitoring program that measured the
+    effect of restoration on a range of ecological parameters thought to
+    influence salmonid habitat use and productivity and riparian
+    ecosystem function using a Before-After-Control-Impact study
+    framework. Specifically, we monitored salmonid and non-native
+    predator density, juvenile salmonid growth and residence time,
+    predation, invertebrate prey (drift) density and biomass, and
+    changes in acreage of a range of habitat types, including
+    terrestrial and aquatic vegetation. We also examined factors
+    influencing natural riparian tree recruitment following restoration.
+  </para>
+    </abstract>
+    <keywordSet>
+      <keyword>floodplain</keyword>
+      <keyword>river</keyword>
+      <keyword>aquatic ecosystems</keyword>
+      <keyword>freshwater</keyword>
+      <keyword>fish</keyword>
+      <keyword>trout</keyword>
+      <keyword>fauna</keyword>
+      <keyword>zooplankton</keyword>
+      <keyword>productivity</keyword>
+      <keyword>biomass</keyword>
+      <keyword>watersheds</keyword>
+      <keyword>life history</keyword>
+      <keyword>survival</keyword>
+      <keyword>restoration</keyword>
+      <keyword>transects</keyword>
+      <keyword>surveys</keyword>
+      <keyword>population</keyword>
+      <keyword>species</keyword>
+      <keyword>endangered species</keyword>
+      <keywordThesaurus>LTER</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>habitats</keyword>
+      <keyword>salmon</keyword>
+      <keywordThesaurus>AGROVOC</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>CVPIA</keyword>
+      <keyword>Cramer Fish Sciences</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This data package is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein "website") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available "as is" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Zero v1.0 Universal</licenseName>
+      <url>https://spdx.org/licenses/CC0-1.0.html</url>
+      <identifier>CC0-1.0</identifier>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Hallwood Floodplain and Side Channel Restoration Project, Marysville, CA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-121.4927</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.4463</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.2053</northBoundingCoordinate>
+          <southBoundingCoordinate>39.1887</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2014-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2021-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Teleostei</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Salmoniformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Salmonidae</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Oncorhynchus</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Oncorhynchus mykiss</taxonRankValue>
+                      <commonName>Steelhead Trout</commonName>
+                      <taxonId provider="https://itis.gov">161989</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Teleostei</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Salmoniformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Salmonidae</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Oncorhynchus</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Oncorhynchus tshawytscha</taxonRankValue>
+                      <commonName>Chinook Salmon</commonName>
+                      <taxonId provider="https://itis.gov">161980</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Bobbie</givenName>
+        <surName>Flores</surName>
+      </individualName>
+      <organizationName>Cramer Fish Sciences</organizationName>
+      <electronicMailAddress>bobbie.flores@fishsciences.net</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Snorkel Surveys</title>
+            <para>
+      Snorkel surveys were conducted to determine how restoration
+      affected spatial and temporal distribution and density of native
+      and non-native fish, with a focus on juvenile salmonids. Surveys
+      were conducted multiple times throughout the spring rearing season
+      for fall-run Chinook Salmon for two years prior to implementation
+      and two years following Phase I implementation. Prior to
+      restoration implementation, transects were surveyed in control
+      main channel locations upstream and downstream of the Project
+      footprint and upstream, middle, and downstream portions of the
+      unrestored backwater which was converted to side channel habitat
+      during implementation. Post project, surveys were expanded to also
+      include the upstream and downstream portions of newly constructed
+      alcove habitat. All surveys were led by a biologist or senior
+      technician with training and experience conducting snorkel
+      surveys. Snorkeling methods were consistent with other studies
+      (Edmundson et al. 1968, Hankin and Reeves 1988, Jackson 1992,
+      McCain 1992, Dolloff et al. 1996, Cavallo et al. 2003). Habitats
+      were snorkeled by two adjacent snorkelers moving upstream for
+      margin habitats and downstream for mid-channel habitats. Fish were
+      counted by species and size class (0 – 50 mm, 51 – 80 mm, 81 – 100
+      mm, 101 – 120 mm, 121 – 150 mm, 151 – 200 mm, 201 – 300 mm, and
+      &gt;301 mm) and counts later converted to densities
+      (fish/m<superscript>2</superscript>) using transect length and
+      visibility to calculate total area sampled.
+    </para>
+            <para>
+      In 2014, 2016, 2020 and winter 2021, data was collected on
+      standardized paper datasheets and manually entered into an Access
+      database. Beginning in 2021, data collection was transitioned to a
+      digital collection app built by CFS and data was pushed into
+      Access using R, version 4.0.3 (R Core Team 2020). Paper datasheets
+      all went through a double-blind quality control process wherein a
+      technician compared the datasheets to a report of the data entered
+      into Access. Any changes were made to the database and the process
+      was repeated by a different technician. After two round of quality
+      control, the data was considered fully QC’d and ready for cleaning
+      in R using the <emphasis>dplyr</emphasis> package, version 1.0.3
+      (Wickham et al. 2021) Data cleaning was accomplished by compiling
+      data and running it through a series of checks to ensure that all
+      data was present and fell within appropriate boundaries for each
+      data type. Any outliers or issues were investigated by the data
+      manager and the database was updated and corrected when possible.
+      If crucial data was completely missing, transects or data subsets
+      were excluded from the dataset prior to analysis.
+    </para>
+            <para>
+      Data were analyzed in R and plots were constructed using the
+      <emphasis>ggplot2</emphasis> package, version 3.3.3 (Wickham 2016)
+      and the <emphasis>ggpubr</emphasis> package, version 0.4.0
+      (Kassambara 2020). Separate analyses were conducted for juvenile
+      Chinook salmon and <emphasis>O. mykiss</emphasis>. Densities were
+      first compared across locations (upstream, middle, downstream)
+      within habitats to ensure non significance before aggregating
+      transects by habitat. BACI analyses were completed using the aov
+      function from the <emphasis>stats</emphasis> package, version
+      4.0.3 (R Core Team 2017) to construct models containing period
+      (pre-, post-project), treatment (main channel control, Project off
+      channel), month, and the interaction of period and treatment and
+      factor significance was assessed using the Anova function from the
+      <emphasis>car</emphasis> package (Fox and Weisberg 2019) to
+      calculate Type II Sums of Squares. For significant effects,
+      pairwise comparisons were performed using Shaffer’s stepwise
+      extension of the Tukey test to control for family-wise error
+      (Shaffer 1986) and the glht function in the
+      <emphasis>multcomp</emphasis> package, version 1.4-16 (Hothorn et
+      al. 2008). A threshold of α = 0.05 was used to assess significance
+      of model factors. However, post hoc tests were performed using a
+      family-wise error rate of α = 0.1 because the Tukey test is known
+      to be over-conservative and thus a higher value of α increases the
+      power of post hoc testing with little chance of achieving a
+      family-wise error rate of even 0.05 (Quinn and Keough 2002).
+      Quantitative comparison between off channel habitat types (alcove
+      and side channel) will be conducted when additional years of data
+      have been collected. 
+    </para>
+          </section>
+          <section>
+            <title>Geospatial Data</title>
+            <para>
+      Geospatial data (shapefiles) were offloaded from the GPS unit
+      following field data collection, differentially corrected if
+      necessary, exported into the project folder, and visually
+      inspected in ArcGIS or QGIS by a field crew member to ensure the
+      data exported completely and correctly.
+    </para>
+          </section>
+          <section>
+            <title>References</title>
+            <para>
+      Cavallo, B., R. Kurth, J. Kindopp, A. Seesholtz, and M. Perrone.
+      2003. Distribution and habitat use of steelhead and other fishes
+      in the lower Feather River, 1999–2001. California Department of
+      Water Resources, Division of Environmental Services, Interim
+      Report SP-F10.
+    </para>
+            <para>
+      Dolloff, A., J. Kershner, and R. Thurow. 1996. Underwater
+      observation. Pages 533–554 in B. R. Murphy and D. W. Willis,
+      editors. Fisheries techniques. Second edition. American Fisheries
+      Society, Bethesda, MD.
+    </para>
+            <para>
+      Edmundson, E., F. H. Everest, and D. W. Chapman. 1968. Permanence
+      of station in juvenile Chinook Salmon and Steelhead Trout. Journal
+      of the Fisheries Research Board of Canada 25:1453–1464.
+    </para>
+            <para>
+      Fox, J., and S. Weisberg. 2019. An R Companion to Applied
+      Regression. Third edition. Sage, Thousand Oaks
+      CA. https://socialsciences.mcmaster.ca/jfox/Books/Companion/.
+    </para>
+            <para>
+      Hankin, D. G., and G. H. Reeves. 1988. Estimating total fish
+      abundance and total habitat area in small streams based on visual
+      estimation methods. Canadian Journal of Fisheries and Aquatic
+      Sciences 45:834–844.
+    </para>
+            <para>
+      Hothorn, T., F. Bretz, P. Westfall. 2008. Simultaneous Inference
+      in General Parametric Models. Biometrical Journal, 50:3, 346–363.
+    </para>
+            <para>
+      Jackson, T. A. 1992. Microhabitat utilization by juvenile Chinook
+      Salmon (Oncorhynchus tshawytscha) in relation to stream discharges
+      in the lower American River of California. Oregon State
+      University.
+    </para>
+            <para>
+      Kassambara, A. 2020. ggpubr: ‘ggplot2’ Based Publication Ready
+      Plots. https://rpkgs.datanovia.com/ggpubr.
+    </para>
+            <para>
+      McCain, M. E. 1992. Comparison of habitat use and availability for
+      juvenile fall Chinook Salmon in a tributary of the Smith River,
+      CA. USFS, R-5 Fish Habitat Relationship Technical Bulletin. Number
+      7. April 1992.
+    </para>
+            <para>
+      Quinn, G., and M. Keough. 2002. Experimental Design and Data
+      Analysis For Biologists. 10.1017/CBO9780511806384.
+    </para>
+            <para>
+      R Core Team (2017). R: A language and environment for statistical
+      computing. R Foundation for Statistical Computing, Vienna,
+      Austria. https://www.R-project.org/.
+    </para>
+            <para>
+      Shaffer, J. 1986. Modified Sequentially Rejective Multiple Test
+      Procedures. Journal of The American Statistical Association.
+    </para>
+            <para>
+      Wickham, H. 2016. ggplot2: Elegant Graphics for Data Analysis.
+      Springer-Verlag New York.
+    </para>
+            <para>
+      Wickham, H.; R. François, L. Henry, K. Müller. 2022. dplyr: A
+      Grammar of Data Manipulation. https://dplyr.tidyverse.org,
+      https://github.com/tidyverse/dplyr.
+    </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Lower Yuba River Hallwood floodplain and side channel restoration snorkel surveys at the project and control reaches</title>
+      <personnel>
+        <individualName>
+          <givenName>Bobbie</givenName>
+          <surName>Flores</surName>
+        </individualName>
+        <organizationName>Cramer Fish Sciences</organizationName>
+        <electronicMailAddress>bobbie.flores@fishsciences.net</electronicMailAddress>
+        <role>Project Lead</role>
+      </personnel>
+      <award>
+        <funderName>USFWS</funderName>
+        <awardNumber>F13AP00568</awardNumber>
+        <title>Teichert Hallwood Facility Salmonid Habitat Restoration, Yuba River, CA</title>
+      </award>
+      <award>
+        <funderName>USFWS</funderName>
+        <awardNumber>F15AP000576</awardNumber>
+        <title>Teichert Hallwood Facility Salmonid Habitat Restoration, Yuba River, CA</title>
+      </award>
+      <award>
+        <funderName>USFWS</funderName>
+        <awardNumber>F20AP00294</awardNumber>
+        <title>Teichert Hallwood Facility Salmonid Habitat Restoration, Yuba River, CA</title>
+      </award>
+      <award>
+        <funderName>CNRA</funderName>
+        <funderIdentifier>Prop 68</funderIdentifier>
+        <awardNumber>H90407-0</awardNumber>
+        <title>Hallwood Side Channel and Floodplain Restoration Project</title>
+      </award>
+      <award>
+        <funderName>WCB</funderName>
+        <funderIdentifier>Prop 1</funderIdentifier>
+        <awardNumber>WC-2266EA</awardNumber>
+        <title>Hallwood Side Channel and Floodplain Restoration Phases III and IV</title>
+      </award>
+      <award>
+        <funderName>Yuba Water Agency</funderName>
+        <awardNumber>NA</awardNumber>
+        <title>Hallwood Side Channel and Floodplain Restoration Project</title>
+      </award>
+    </project>
+    <dataTable>
+      <entityName>snorkel_all.csv</entityName>
+      <entityDescription>Snorkel Data</entityDescription>
+      <physical>
+        <objectName>snorkel_all.csv</objectName>
+        <size unit="bytes">1939637</size>
+        <authentication method="MD5">ebc2afe6647549e84f7509fd0aaf1389</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.1223/main/data/snorkel_all.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>ProjectID</attributeName>
+          <attributeDefinition>unique project identifier</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Yuba Hallwood</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteID</attributeName>
+          <attributeDefinition>unique identifier for each site</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>122</code>
+                    <definition>Main Downstream Control Hallwood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>125</code>
+                    <definition>Downstream Side Channel Hallwood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>123</code>
+                    <definition>Upstream Side Channel Hallwood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>121</code>
+                    <definition>Main Upstream Control Hallwood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>124</code>
+                    <definition>Middle Side Channel Hallwood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>51</code>
+                    <definition>DS_Alcove</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>46</code>
+                    <definition>Main Downstream Control</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>47</code>
+                    <definition>Upstream Side Channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>48</code>
+                    <definition>Middle Side Channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>50</code>
+                    <definition>US_Alcove</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>45</code>
+                    <definition>Main Upstream Control</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>49</code>
+                    <definition>Hallwood Downstream Side Channel</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TransectID</attributeName>
+          <attributeDefinition>unique identifier for each transect</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique identifier for each transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Y_coord_start</attributeName>
+          <attributeDefinition>y coordinate of transect start</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>y coordinate of transect start</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>X_coord_start</attributeName>
+          <attributeDefinition>x coordinate of transect start</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>x coordinate of transect start</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Y_coord_end</attributeName>
+          <attributeDefinition>y coordinate of transect end</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>y coordinate of transect end</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>X_coord_end</attributeName>
+          <attributeDefinition>x coordinate of transect end</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>x coordinate of transect end</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>survey date</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">41640</minimum>
+                  <maximum exclusive="false">44831</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SnorkelTransectNo</attributeName>
+          <attributeDefinition>transect number for each site   - sometimes a duplicate of Snorkel_Transect</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>transect number for each site   - sometimes a duplicate of Snorkel_Transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>StartTime</attributeName>
+          <attributeDefinition>start time of each transect</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">00:00:00</minimum>
+                  <maximum exclusive="false">12:59:59</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EndTime</attributeName>
+          <attributeDefinition>end time of ecah transect</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">00:00:00</minimum>
+                  <maximum exclusive="false">12:59:59</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AvgTranDepth</attributeName>
+          <attributeDefinition>average depth along transect - deprecated</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1</minimum>
+                  <maximum exclusive="false">3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Visibility</attributeName>
+          <attributeDefinition>average visibility of snorkelers combined in meters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.25</minimum>
+                  <maximum exclusive="false">3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Notes</attributeName>
+          <attributeDefinition>notes about each transect</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>notes about each transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temperature_C</attributeName>
+          <attributeDefinition>water temperature at site</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5</minimum>
+                  <maximum exclusive="false">25</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DO_mgL</attributeName>
+          <attributeDefinition>dissolved oxygen at site - mg_L</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>milligramPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.5</minimum>
+                  <maximum exclusive="false">15</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DO_percent</attributeName>
+          <attributeDefinition>dissolved oxygen at site - percent</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">50</minimum>
+                  <maximum exclusive="false">150</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Turbidity_NTU</attributeName>
+          <attributeDefinition>turbidity at site - NTU</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>nephelometric turbidity units</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.01</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Transect_length_m</attributeName>
+          <attributeDefinition>transect length in meters</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">200</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Bank</attributeName>
+          <attributeDefinition>river bank transect runs along</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>river bank transect runs along</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GPS_Start</attributeName>
+          <attributeDefinition>id for GPS start point</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>id for GPS start point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GPS_End</attributeName>
+          <attributeDefinition>id for GPS end point</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>id for GPS end point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SingleSnorkeler</attributeName>
+          <attributeDefinition>check if only one snorkeler - deprecated</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>check if only one snorkeler - deprecated</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NumSnorkelers</attributeName>
+          <attributeDefinition>number of snorkelers for each transect</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>number of snorkelers for each transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ObsID</attributeName>
+          <attributeDefinition>unique identifier for each observation</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique identifier for each observation</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ObservationNum</attributeName>
+          <attributeDefinition>number of observation for each transect</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>number of observation for each transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AreaCode</attributeName>
+          <attributeDefinition>categorical code that defines the area fish were observed in</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>&lt;0.5 square meters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>0.5 - 1 square meter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>&gt; 5 square meters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>Entire transect</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>1 - 1.5 square meters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>1.5 - 2 square meters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>2 - 2.5 square meters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>2.5 - 3 square meters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>3 - 3.5 square meters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>3.5- 4 square meters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>4 - 4.5 square meters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>4.5- 5 square meters</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>unk</code>
+                    <definition>Unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GPSWpts</attributeName>
+          <attributeDefinition>id for GPS point marking observation</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>id for GPS point marking observation</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ycoord</attributeName>
+          <attributeDefinition>y coordinate for observation point</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>y coordinate for observation point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>xcoord</attributeName>
+          <attributeDefinition>x coordinate for observation point</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>x coordinate for observation point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FishObsID</attributeName>
+          <attributeDefinition>unique identifier for each individual fish or group of fish</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique identifier for each individual fish or group of fish</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeDefinition>depth at observation - usually only for salmonids</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Velocity1</attributeName>
+          <attributeDefinition>velocity at observation - usually only for salmonids</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meterPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.2</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Velocity2</attributeName>
+          <attributeDefinition>second velocity at observations with depth =&gt; 0.6m - usually only for salmonids</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meterPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.2</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species_Code</attributeName>
+          <attributeDefinition>categorical code for species observed</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AMO</code>
+                    <definition>Lamprey ammocoete</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AMS</code>
+                    <definition>American Shad</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BAS</code>
+                    <definition>unknown bass</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BGS</code>
+                    <definition>Bluegill Sunfish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BKB</code>
+                    <definition>Black Bullhead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BKS</code>
+                    <definition>Black Crappie</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BR</code>
+                    <definition>Brook Trout</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BRB</code>
+                    <definition>Brown Bullhead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BT</code>
+                    <definition>Brown Trout</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Carp</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CAR</code>
+                    <definition>California Roach</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CARRH</code>
+                    <definition>Red Hills Roach</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CAT</code>
+                    <definition>Unknown Catfish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CHC</code>
+                    <definition>Channel Catfish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CHG</code>
+                    <definition>Chameleon Goby</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CHN</code>
+                    <definition>Chinook Salmon</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>COT</code>
+                    <definition>Unknown Sculpin?</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CYP</code>
+                    <definition>Unknown Minnow?</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DSM</code>
+                    <definition>Delta Smelt</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FHM</code>
+                    <definition>Fathead Minnow</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GF</code>
+                    <definition>Goldfish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GOB</code>
+                    <definition>Unknown Goby</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSF</code>
+                    <definition>Green Sunfish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSN</code>
+                    <definition>Golden Shiner</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GST</code>
+                    <definition>Green Sturgeon</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HCH</code>
+                    <definition>Hitch</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HH</code>
+                    <definition>Hardhead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JSM</code>
+                    <definition>Jacksmelt</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>KOKA</code>
+                    <definition>Sockeye (Kokanee)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LAM</code>
+                    <definition>Unknown Lamprey</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LARVAL</code>
+                    <definition>NA</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LFS</code>
+                    <definition>Longfin Smelt</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LMB</code>
+                    <definition>Largemouth Bass</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LP</code>
+                    <definition>Logperch</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MIN</code>
+                    <definition>Unknown Minnow</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MQK</code>
+                    <definition>Mosquitofish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MSS</code>
+                    <definition>Inland Silverside</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NAN</code>
+                    <definition>Northern Anchovy</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NO</code>
+                    <definition>no catch</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OMY</code>
+                    <definition>Rainbow Trout (Steelhead)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PAH</code>
+                    <definition>Pacific Herring</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PER</code>
+                    <definition>Unknown Perch</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PKS</code>
+                    <definition>Pumpkinseed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PL</code>
+                    <definition>Pacific Lamprey</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PMP</code>
+                    <definition>Plainfin Midshipman</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PRS</code>
+                    <definition>Prickly Sculpin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSS</code>
+                    <definition>Pacific Staghorn Sculpin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RB</code>
+                    <definition>Redband Trout</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>REDB</code>
+                    <definition>Redeye Bass</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RES</code>
+                    <definition>Redear Sunfish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RFS</code>
+                    <definition>Riffle Sculpin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RL</code>
+                    <definition>River Lamprey</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RSN</code>
+                    <definition>Red Shiner</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SABF</code>
+                    <definition>NA</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SALM</code>
+                    <definition>Unknown Salmon</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SASQ</code>
+                    <definition>Sacramento Pikeminnow</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SASU</code>
+                    <definition>Sacramento Sucker</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SCB</code>
+                    <definition>Sacramento Blackfish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SCP</code>
+                    <definition>Unknown Sculpin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SHM</code>
+                    <definition>Shimofuri Goby</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SMB</code>
+                    <definition>Smallmouth bass</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SME</code>
+                    <definition>Unknown Smelt</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SNF</code>
+                    <definition>Unknown Sunfish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SP</code>
+                    <definition>Sacramento Perch</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SPLT</code>
+                    <definition>Sacramento Splittail</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SPTB</code>
+                    <definition>Spotted Bass</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SSD</code>
+                    <definition>Speckled Dace</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SSM</code>
+                    <definition>Surf Smelt</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STB</code>
+                    <definition>Striped Bass</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STF</code>
+                    <definition>Starry Flounder</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUC</code>
+                    <definition>Unknown Sucker</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TFS</code>
+                    <definition>Threadfin Shad</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TP</code>
+                    <definition>Tule Perch</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSM</code>
+                    <definition>Top Smelt</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSS</code>
+                    <definition>Threespine Stickleback</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UNID</code>
+                    <definition>Unidentified</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>Warmouth</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAG</code>
+                    <definition>Wakasagi</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WCK</code>
+                    <definition>White Croaker</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WHC</code>
+                    <definition>White Catfish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WHS</code>
+                    <definition>White Crappie</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WST</code>
+                    <definition>White sturgeon</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YEB</code>
+                    <definition>Yellow Bullhead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YFG</code>
+                    <definition>Yellowfin Goby</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Count</attributeName>
+          <attributeDefinition>number of indviduals observed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fish</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Length_Code</attributeName>
+          <attributeDefinition>categorical code that defines length group of individuals observed</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>NA</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>0-50 mm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>51-80 mm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>81-100 mm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>101-120 mm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>121-150 mm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>151-200 mm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>201-300 mm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>301-400 mm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>&gt; 400 mm</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>JointID</attributeName>
+          <attributeDefinition>unique identifier for joining transect and cross section DV tables</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique identifier for joining transect and cross section DV tables</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>XSDVTransectNo</attributeName>
+          <attributeDefinition>depth - velocity transect number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>depth - velocity transect number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>XSdvID</attributeName>
+          <attributeDefinition>unique identifier for cross section DV table</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique identifier for cross section DV table</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>xsDepth</attributeName>
+          <attributeDefinition>cross section transect depth at point</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>xsVelocity_1</attributeName>
+          <attributeDefinition>cross section velocity at point</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meterPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.2</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>xsVelocity_2</attributeName>
+          <attributeDefinition>cross section velocity at point when depth =&gt;0.6m</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meterPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.2</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comment</attributeName>
+          <attributeDefinition>comments about cross section dv transect</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments about cross section dv transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Average_Velocity</attributeName>
+          <attributeDefinition>average velocity at cross section transect point when two velocities recorded</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meterPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.2</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>6778</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>2014_2022_HW_snorkel_final.zip</entityName>
+      <entityDescription>A zipped folder containing vector shapefiles associated with this dataset</entityDescription>
+      <physical>
+        <objectName>2014_2022_HW_snorkel_final.zip</objectName>
+        <size unit="bytes">157588</size>
+        <authentication method="MD5">c14864d44a21c7d371f6a3e42e42a4c8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>zipped</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="nephelometric turbidity units" name="nephelometric turbidity units" unitType="dimensionless">
+          <description>Turbidity Units</description>
+        </unit>
+        <unit id="fish" name="fish" unitType="dimensionless">
+          <description>Number of Fish</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
