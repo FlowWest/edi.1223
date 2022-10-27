@@ -16,8 +16,8 @@ snorkel_all <- raw_snorkel_all |>
   separate(EndTime, into = c("tmp2", "EndTime"), sep = " ") |> 
   mutate(StartTime = ifelse(nchar(StartTime) %in% c(5, 4), paste0(StartTime, ":00"), StartTime),
          EndTime = ifelse(nchar(EndTime) %in% c(5, 4), paste0(EndTime, ":00"), EndTime),
-         StartTime = as.character(as_datetime(paste(Date, StartTime))),
-         EndTime = as.character(as_datetime(paste(Date, EndTime)))) |> 
+         StartTime = as_hms(as_datetime(paste(Date, StartTime))),
+         EndTime = as_hms(as_datetime(paste(Date, EndTime)))) |> 
   #mutate(nchar = nchar(as.character(StartTime))) 
   #mutate(StartTime = ifelse(nchar(StartTime) != 10, StartTime, NA)) |> 
   select(-tmp, -tmp2) |> 
@@ -85,7 +85,6 @@ unique(snorkel_all$Comment, useNA = "ifany")
 # write clean csv  --------------------------------------------------------
 
 write_csv(snorkel_all, 'data/snorkel_all.csv')
-
 
 # shapefiles --------------------------------------------------------------
 
