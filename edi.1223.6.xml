@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.1223.1" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.1223.6" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
   <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
     <allow>
       <principal>public</principal>
@@ -53,7 +53,7 @@
       <electronicMailAddress>a.sawyer@cbecoeng.com</electronicMailAddress>
       <role>project manager</role>
     </associatedParty>
-    <pubDate>2022-10-24</pubDate>
+    <pubDate>2022-10-27</pubDate>
     <abstract>
       <para>
     Cramer Fish Sciences (CFS), cbec, inc. ecoengineering, and South
@@ -445,8 +445,8 @@
       <entityDescription>Snorkel Data</entityDescription>
       <physical>
         <objectName>snorkel_all.csv</objectName>
-        <size unit="bytes">1939637</size>
-        <authentication method="MD5">ebc2afe6647549e84f7509fd0aaf1389</authentication>
+        <size unit="bytes">1816240</size>
+        <authentication method="MD5">f7b8d8054efe54dbc9ef795382ec0441</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -459,7 +459,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.1223/main/data/snorkel_all.csv</url>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/edi.1223/update_time/data/snorkel_all.csv</url>
           </online>
         </distribution>
       </physical>
@@ -638,11 +638,11 @@
           <attributeDefinition>start time of each transect</attributeDefinition>
           <measurementScale>
             <dateTime>
-              <formatString>DD/MM/YYYY hh:mm</formatString>
+              <formatString>hh:mm:ss</formatString>
               <dateTimeDomain>
                 <bounds>
-                  <minimum exclusive="false">11/12/2021 11:22</minimum>
-                  <maximum exclusive="false">6/9/2022 9:25</maximum>
+                  <minimum exclusive="false"> 00:00:00</minimum>
+                  <maximum exclusive="false">16:33:00</maximum>
                 </bounds>
               </dateTimeDomain>
             </dateTime>
@@ -653,11 +653,11 @@
           <attributeDefinition>end time of ecah transect</attributeDefinition>
           <measurementScale>
             <dateTime>
-              <formatString>DD/MM/YYYY hh:mm</formatString>
+              <formatString>hh:mm:ss</formatString>
               <dateTimeDomain>
                 <bounds>
-                  <minimum exclusive="false">11/12/2021 11:34</minimum>
-                  <maximum exclusive="false">6/9/2022 9:36</maximum>
+                  <minimum exclusive="false"> 00:00:00</minimum>
+                  <maximum exclusive="false">16:34:00</maximum>
                 </bounds>
               </dateTimeDomain>
             </dateTime>
